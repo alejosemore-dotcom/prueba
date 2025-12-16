@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama Casos de Uso">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Actor -->
+        <mxCell id="actor" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="40" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- System Boundary -->
+        <mxCell id="system" value="Sistema de Gestión de Nómina" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="650" height="650" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="uc1" value="Iniciar Sesión" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="220" y="80" width="180" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc2" value="Gestionar Empleados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="220" y="160" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc3" value="Registrar Empleado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="480" y="140" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc4" value="Consultar Empleados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="480" y="200" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc5" value="Generar Nómina" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="220" y="300" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc6" value="Calcular Salario y Deducciones" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="480" y="300" width="250" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc7" value="Generar PDF de Nómina" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="480" y="380" width="230" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc8" value="Enviar Nómina por Correo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="480" y="460" width="250" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc9" value="Cerrar Sesión" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system">
+          <mxGeometry x="220" y="560" width="180" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="e1" style="endArrow=none;" edge="1" parent="1" source="actor" target="uc1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" style="endArrow=none;" edge="1" parent="1" source="actor" target="uc2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" style="endArrow=none;" edge="1" parent="1" source="actor" target="uc5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" style="endArrow=none;" edge="1" parent="1" source="actor" target="uc9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
